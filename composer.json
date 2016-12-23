@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "JManuelMtz/elemental",
+    "description": "Aplicación de los Elementos Quimicos.",
+    "keywords": ["elemento", "quimica", "tabla periodica"],
     "license": "MIT",
     "type": "project",
     "require": {
