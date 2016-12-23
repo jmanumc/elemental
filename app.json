@@ -1,0 +1,23 @@
+{
+  "name": "elemental",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "APP_ENV": "local",
+    "APP_KEY": "base64:pCzp7vThZrzzbPy3zq2gbQyNmsfV1qZdSn+tQyld578=",
+    "APP_DEBUG": "true",
+    "APP_LOG_LEVEL": "debug",
+    "APP_URL": "http://localhost"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
