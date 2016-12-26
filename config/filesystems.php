@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => 'local',
+    'default' => 'dropbox',
 
     /*
     |--------------------------------------------------------------------------
@@ -60,6 +60,12 @@ return [
             'secret' => 'your-secret',
             'region' => 'your-region',
             'bucket' => 'your-bucket',
+        ],
+
+        'dropbox' => [
+            'driver' => 'dropbox',
+            'appSecret' => env('DROPBOX_APP_SECRET'),
+            'accessToken' => env('DROPBOX_ACCESS_TOKEN'),
         ],
 
     ],

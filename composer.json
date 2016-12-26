@@ -10,6 +10,7 @@
         "ext-mbstring": "*",
         "fideloper/proxy": "^3.2",
         "laravel/framework": "5.3.*",
+        "league/flysystem-dropbox": "^1.0",
         "tcg/voyager": "^0.10.5"
     },
     "require-dev": {
