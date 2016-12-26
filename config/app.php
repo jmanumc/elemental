@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Fideloper\Proxy\TrustedProxyServiceProvider::class,
         TCG\Voyager\VoyagerServiceProvider::class,
         //
 
